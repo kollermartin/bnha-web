@@ -14,4 +14,16 @@ html,body {
 .carousel-control-next-icon {
 
 }
+#heroAllWallpaper {
+    background: url(imgs/all-might-2560x1440.jpg) no-repeat bottom fixed;
+    background-position-y: 50%;
+    position: relative;
+    height: 70%;
+    width: 100%;
+}
+.card img {
+    height: 600px;
+    width: 600px;
+}
+
 

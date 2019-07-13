@@ -15,7 +15,7 @@ html,body {
 
 }
 #heroAllWallpaper {
-    background: url(imgs/all-might-2560x1440.jpg) no-repeat bottom fixed;
+    background: url(imgs/all-might-2560x1440.jpg) no-repeat center fixed;
     background-position-y: 50%;
     position: relative;
     height: 70%;

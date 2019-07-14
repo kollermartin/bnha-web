@@ -7,14 +7,6 @@ html,body {
     width: 100%;
     height: 100%;
 }
-<<<<<<< HEAD
-.carousel-control-prev-icon {
-    
-}
-
-.carousel-control-next-icon {
-
-=======
 div .imgToRight img {
     display: block;
     margin: auto;
@@ -22,7 +14,6 @@ div .imgToRight img {
 div .imgToLeft img {
     display: block;
     margin: auto;
->>>>>>> changes
 }
 #overlayWallpaperHero {
     background: url(imgs/all-might-2560x1440.jpg) no-repeat center fixed;

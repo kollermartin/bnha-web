@@ -14,15 +14,20 @@ html,body {
 .carousel-control-next-icon {
 
 }
-#heroAllWallpaper {
+#overlayWallpaperHero {
     background: url(imgs/all-might-2560x1440.jpg) no-repeat center fixed;
     background-position-y: 50%;
     position: relative;
     height: 70%;
     width: 100%;
 }
-.card img {
-   
+
+#overlayWallpaperVillain {
+    background: url(imgs/AllforOne.jpg) no-repeat center fixed;
+    background-position-y: 20%;
+    position: relative;
+    height: 70%;
+    width: 100%;
 }
 
 

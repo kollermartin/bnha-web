@@ -30,5 +30,7 @@ div .imgToLeft img {
     height: 70%;
     width: 100%;
 }
-
+.articleText {
+    text-align: justify;
+}
 

@@ -22,7 +22,20 @@ div .imgToLeft img {
     height: 70%;
     width: 100%;
 }
-
+#overlayWallpaperQuirk{
+    background: url(imgs/wallpaper-quirk-2.jpg) no-repeat center;
+    background-position-y: 20%;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    
+}
+#overlayWallpaperQuirk2{
+    background: url(imgs/deku-quirk.jpg) no-repeat center fixed;
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
 #overlayWallpaperVillain {
     background: url(imgs/AllforOne.jpg) no-repeat center fixed;
     background-position-y: 20%;
@@ -33,4 +46,5 @@ div .imgToLeft img {
 .articleText {
     text-align: justify;
 }
+
 

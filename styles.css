@@ -33,6 +33,7 @@ div .imgToLeft img {
 #overlayWallpaperQuirk2{
     background: url(imgs/deku-quirk.jpg) no-repeat center fixed;
     position: relative;
+    background-position-y: 20%;
     width: 100%;
     height: 30%;
 }

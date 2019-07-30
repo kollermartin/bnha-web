@@ -47,5 +47,31 @@ div .imgToLeft img {
 .articleText {
     text-align: justify;
 }
+footer {
+    background: #666b67;
+    color: white;
+    padding-top: 20px;
+}
+footer div a  {
+color: white;
+margin: 0 10px 0 10px;
+    
+}
 
-
+footer div a:hover {
+    text-decoration: none;
+    color:black;
+    
+}
+.facebook {
+    font-size: 40px;
+}
+.facebook:hover {
+    color: #2874ed;
+}
+.instagram {
+    font-size: 40px;
+}
+.instagram:hover {
+    color: orange;
+}

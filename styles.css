@@ -50,7 +50,6 @@ div .imgToLeft img {
 footer {
     background: #666b67;
     color: white;
-    padding-top: 20px;
 }
 footer div a  {
 color: white;
@@ -65,7 +64,6 @@ footer div a:hover {
 }
 .facebook {
     font-size: 40px;
-    padding-bottom: 10px;
 }
 .facebook:hover {
     color: #2874ed;
@@ -75,4 +73,7 @@ footer div a:hover {
 }
 .instagram:hover {
     color: orange;
+}
+#copyrightClaimAndIcons {
+   height: 60px;
 }

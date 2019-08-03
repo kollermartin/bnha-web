@@ -27,15 +27,21 @@ nav a:hover{
     color: yellow;
     border-bottom: #2874ed inset 3px;
 }
-.indexHeadings{
-    font-size: 40px;
-    font-family: 'Ultra', serif;
+.quotes{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-.backgroundQuotes{
+.heading{
+    font-family: 'Merriweather', serif;
+}
+.heroesBackground{
+    background: #d9dbdb;
+}
+.indexBackgroundQuotes{
     background: #666b67;
     color: white;
     padding: 10px 0 10px 0;
-    font-family: 'Cinzel', serif;
+
 }
 .villainBackground {
     background: #2d2e2e;

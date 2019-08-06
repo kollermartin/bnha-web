@@ -1,13 +1,14 @@
 html,body {
     height: 100%;
     width: 100%;
-    top: 0px;
 }
 nav {
-    box-shadow: 0px 5px 5px 1px rgba(110, 94, 110, 0.699);
+    box-shadow: 0px 3px 5px 1px rgba(110, 94, 110, 0.699);
     background: #666b67;
-    
+    height: 60px;
+    width: 100%;
 }
+
 nav .active a {
     color: white !important;
     border-bottom: #2874ed inset 3px;
@@ -15,7 +16,7 @@ nav .active a {
 nav a {
     text-decoration: none;
     color: white;
-    height: 40px;
+    
 }
 nav .navbar-toggler-icon{
     background-image:url("imgs/bars-navbar.png");
@@ -27,6 +28,24 @@ nav a:hover{
     color: yellow;
     border-bottom: #2874ed inset 3px;
 }
+.quirkArticle1 {
+    padding-top: 10px;
+
+}
+   
+.quirkTypesArticles{
+    background: #cdcece38;
+    
+}
+.quirkTypeArticleHeading{
+    font-weight: 700;
+    font-size: 30px;
+}
+.quirkAllArticles {
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 5px 1px black;
+    background: #cdcece38;
+}
 .quotes{
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -34,18 +53,43 @@ nav a:hover{
 .heading{
     font-family: 'Merriweather', serif;
 }
-.heroesBackground{
-    background: #d9dbdb;
+.quirkBackground {
+    background: #666b67;
+    color: white;
 }
-.indexBackgroundQuotes{
+.indexBackgroundQuote1{
     background: #666b67;
     color: white;
     padding: 10px 0 10px 0;
-
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 2px 6px 0px black;
+    
+}
+.indexBackgroundQuote2{
+    background: #666b67;
+    color: white;
+    padding: 10px 0 10px 0;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 2px 6px 0px black;
 }
 .villainBackground {
-    background: #2d2e2e;
+    background: #252626;
     color: white;
+}
+#Heroes {
+    background: #d9dbdb;
+}
+.card-title , .card-text{
+    color: black;
+}
+.card {
+    margin-bottom: 15px;
+}
+#Villains {
+    color: white;
+    background: #252626;
 }
 #carouselIndex{
     background: #2f302f;
@@ -55,7 +99,7 @@ nav a:hover{
     height: 100%;
 }
 .padding {
-    padding: 2rem 0 3rem 0;
+    padding: 2rem 0 2rem 0;
 }
 #overlayWallpaperHero {
     background: url(imgs/all-might-2560x1440.jpg) no-repeat center fixed;
@@ -88,7 +132,7 @@ nav a:hover{
 }
 .articleText  {
     text-align: justify;
-    padding: 0 1rem 0 1rem;
+    padding: 0 10px 0 10px;
     font-family: 'Montserrat', sans-serif;
 }
 footer {

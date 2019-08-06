@@ -8,7 +8,14 @@ nav {
     height: 60px;
     width: 100%;
 }
+#collapseNav {
+    background: #666b67;
 
+}
+#collapseNav ul li  {
+    height: 45px;
+    padding-left: 10px;
+}
 nav .active a {
     color: white !important;
     border-bottom: #2874ed inset 3px;
@@ -36,6 +43,18 @@ nav a:hover{
 .quirkTypesArticles{
     background: #cdcece38;
     
+}
+.indexHeroesBackground {
+    background: #d9dbdb;
+    padding-top: 15px;
+    box-shadow: 0px 1px 5px 1px black;
+
+}
+.indexVillainsBackground {
+    background: #424241;
+    padding-top: 15px;
+    box-shadow: 0px 1px 5px 1px white;
+
 }
 .quirkTypeArticleHeading{
     font-weight: 700;
@@ -86,6 +105,9 @@ nav a:hover{
 }
 .card {
     margin-bottom: 15px;
+}
+.card .card-subtitle {
+    font-size: 15px;
 }
 #Villains {
     color: white;

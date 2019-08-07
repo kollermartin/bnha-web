@@ -2,39 +2,7 @@ html,body {
     height: 100%;
     width: 100%;
 }
-nav {
-    box-shadow: 0px 3px 5px 1px rgba(110, 94, 110, 0.699);
-    background: #666b67;
-    height: 60px;
-    width: 100%;
-}
-#collapseNav {
-    background: #666b67;
 
-}
-#collapseNav ul li  {
-    height: 45px;
-    padding-left: 10px;
-}
-nav .active a {
-    color: white !important;
-    border-bottom: #2874ed inset 3px;
-}
-nav a {
-    text-decoration: none;
-    color: white;
-    
-}
-nav .navbar-toggler-icon{
-    background-image:url("imgs/bars-navbar.png");
-}
-nav li a {
-    margin-right: 10px;
-}
-nav a:hover{
-    color: yellow;
-    border-bottom: #2874ed inset 3px;
-}
 .quirkArticle1 {
     padding-top: 10px;
 

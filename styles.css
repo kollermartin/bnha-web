@@ -48,6 +48,9 @@ nav li {
     box-shadow: 0px 1px 5px 1px black;
 
 }
+.negrClass:hover {
+    background: black;
+}
 .indexVillainsBackground {
     background: #424241;
     padding-top: 15px;

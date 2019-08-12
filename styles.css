@@ -67,11 +67,12 @@ nav li {
     background: #cdcece38;
 }
 .quotes{
-    font-size: 20px;
+    font-size: 40px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 .heading{
     font-family: 'Merriweather', serif;
+    font-size: 70px;
 }
 .quirkBackground {
     background: #666b67;
@@ -189,3 +190,11 @@ footer div a:hover {
 #copyrightClaimAndIcons {
    height: 70px;
 }
+@media (max-width: 600px) { 
+    .heading {
+        font-size: 40px;
+    }
+    .quotes {
+        font-size: 20px;
+    }
+ }

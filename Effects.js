@@ -1,7 +1,4 @@
-$(document).ready(function(){
-    $("#jmeno").mouseenter(function() {
-
-        
-    });
+$(window).on("load",function(){
+    alert("kokos")
     
   });

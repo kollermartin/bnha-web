@@ -53,8 +53,15 @@ nav li {
             box-shadow: 0px 1px 5px 1px black;
 
 }
+.negrclass {
+   
+}
 .negrClass:hover {
-    background: black;
+    transform: translateX(400px);
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    
 }
 .indexVillainsBackground {
     background: #424241;
@@ -198,6 +205,9 @@ footer div a:hover {
 }
 #copyrightClaimAndIcons {
    height: 70px;
+}
+#allHeroes{
+    display: none;
 }
 @media (max-width: 600px) { 
     .heading {

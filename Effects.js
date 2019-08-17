@@ -1,4 +1,3 @@
-$(window).on("load",function(){
-    alert("kokos")
-    
-  });
+$(".toggleHeroes").click(function(){
+  $("#allHeroes").slideToggle("slow")
+});

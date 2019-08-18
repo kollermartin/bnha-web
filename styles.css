@@ -16,21 +16,26 @@ nav .navbar-toggler-icon{
 }
 nav a:hover{
     color: yellow;
+
     border-bottom: #2874ed inset 3px;
+    transition: color .7s;
 }
 nav .active a {
-    color: white !important;
+    color: yellow !important;
     border-bottom: #2874ed inset 3px;
 }
 nav a {
     text-decoration: none;
-    color: white;  
+    color: white;
+
 }
 nav li {
     height: 45px;
     margin-right: 10px;
-    
+
 }
+
+
 #indexBody {
     background: #d1cece;
 }
@@ -53,14 +58,6 @@ nav li {
     -webkit-box-shadow: 0px 1px 5px 1px black;
             box-shadow: 0px 1px 5px 1px black;
 
-}
-.negrclass {
-  
-}
-.negrClass:hover {
-  
-    
-    
 }
 .indexVillainsBackground {
     background: #424241;

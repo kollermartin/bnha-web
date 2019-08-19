@@ -202,7 +202,76 @@ footer div a:hover {
 #copyrightClaimAndIcons {
    height: 70px;
 }
+.toggleHeroes {
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 70px;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    background: #666b67;
+    color: white;
+    border:2px solid #666b67
+
+}
+.toggleHeroes:hover {
+animation: shaking .4s ease-in-out forwards;
+    animation-iteration-count: 1;
+
+
+}
+.toggleHeroes:focus {
+    outline:0;
+}
+.toggleHeroes:before {
+    content: "button";
+}
+.toggleHeroes:hover:before {
+    content: "";
+}
+.toggleHeroes:hover:after {
+    content: "HERE";
+}
 #allHeroes{
+    display: none;
+}
+.toggleVillains {
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 70px;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    background: white;
+    color: black;
+    border:2px solid white;
+
+}
+.toggleVillains:before {
+content: "button";
+}
+.toggleVillains:hover:before {
+    content: "";
+}
+.toggleVillains:focus {
+    outline: 0;
+}
+.toggleVillains:hover{
+
+    animation: shakingVillains .4s ease-in-out forwards;
+    animation-iteration-count: 1;
+
+
+}
+.toggleVillains:hover:after {
+    content: "HERE";
+}
+
+#allVillains {
     display: none;
 }
 @media (max-width: 600px) { 
@@ -213,3 +282,82 @@ footer div a:hover {
         font-size: 20px;
     }
  }
+@keyframes shaking {
+    0% {
+        transform: translate(0px,0px) rotate(0deg);
+        font-size: 2px;
+
+    }
+    20% {
+        transform: translate(1px,1px) rotate(1deg);
+
+        font-size: 5px;
+
+    }
+    40% {
+        transform: translate(-2px,1px) rotate(-2deg);
+        font-size: 10px;
+    }
+    60% {
+        transform: translate(3px,-2px) rotate(1deg);
+        font-size: 15px;
+    }
+    80% {
+        transform: translate(-1.5px,2px) rotate(-1deg) ;
+        font-size: 20px;
+    }
+    90% {
+        transform: translate(-1.5px,2px) rotate(2deg) ;
+        font-size: 28px;
+
+    }
+    100%{
+        transform: translate(0px,0px) rotate(0deg) ;
+        background: #28a745;
+        border: 2px solid #28a745;
+        color: black;
+        font-size: 35px;
+        font-weight: bold;
+
+    }
+
+
+}
+@keyframes shakingVillains {
+    0% {
+        transform: translate(0px,0px) rotate(0deg);
+        font-size: 2px;
+
+    }
+    20% {
+        transform: translate(1px,1px) rotate(1deg);
+
+        font-size: 5px;
+
+    }
+    40% {
+        transform: translate(-2px,1px) rotate(-2deg);
+        font-size: 10px;
+    }
+    60% {
+        transform: translate(3px,-2px) rotate(1deg);
+        font-size: 15px;
+    }
+    80% {
+        transform: translate(-1.5px,2px) rotate(-1deg) ;
+        font-size: 20px;
+    }
+    90% {
+        transform: translate(-1.5px,2px) rotate(2deg) ;
+        font-size: 28px;
+
+    }
+    100%{
+        transform: translate(0px,0px) rotate(0deg) ;
+        background: #1e1f1f;
+        border: 2px solid #1e1f1f;
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+    }
+}

@@ -2,9 +2,7 @@
 
 $(".toggleHeroes").click(function(){
   $("#allHeroes").slideToggle("1000",function(){
-    // $("html,body").animate({
-    //   scrollTop:$("#allHeroes").offset().top
-    // },2000)
+
   })
 });
  // noinspection JSDeprecatedSymbols
@@ -14,11 +12,7 @@ $(".toggleHeroes").click(function () {
     }, 1000)
 });
 
-// $(".toggleVillains").click(function(){
-//     $("#allVillains").slideToggle("1000",function(){
-//
-//     })
-// });
+
 $(".toggleVillains").click(function(){
     $("#allVillains").slideToggle("1000",function(){
 
@@ -31,4 +25,17 @@ $(".toggleVillains").click(function () {
         scrollTop: $("#allVillains").offset().top
     }, 1000)
 });
+$(".cardButton").click(function () {
+
+    $(this).parents(".card").slideUp("slow",function () {
+        $(this).siblings(".card-2").slideDown("slow");
+    });
+
+});
+
+$(".card2Button").click(function () {
+    $(this).parents(".card-2").siblings(".card").slideDown("slow");
+    $(this).parents(".card-2").slideUp("slow");
+})
+
 

@@ -70,6 +70,12 @@ nav li {
     font-weight: 700;
     font-size: 30px;
 }
+
+
+.rotate {
+    transform: rotate(190deg);
+    transition-duration: 2s;
+}
 .quirkAllArticles {
     border-bottom: 1px solid black;
     -webkit-box-shadow: 0px 1px 5px 1px black;
@@ -360,4 +366,10 @@ content: "button";
         font-size: 35px;
         font-weight: bold;
     }
+}
+.card-2 {
+    display: none;
+    background:  #e7eff6;
+    margin-bottom: 23px;
+
 }

@@ -33,5 +33,21 @@ $(".card2Button").click(function () {
     $(this).parents(".card-2").siblings(".card").slideDown("slow");
 
 });
+$(".scrollToTop").click(function () {
+    $("html,body").animate({
+        scrollTop: $(".navbar").offset().top
+    }, 500)
+
+});
+$(window).scroll(function () {
+
+ if( $(window).scrollTop()>100){
+     $(".scrollToTop").fadeIn();
+ }
+ else{
+     $(".scrollToTop").fadeOut();
+ }
+
+});
 
 

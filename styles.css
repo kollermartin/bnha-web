@@ -373,3 +373,27 @@ content: "button";
     margin-bottom: 23px;
 
 }
+.scrollToTop {
+    background: yellow;
+    width: 90px;
+    height: 90px;
+   position: fixed;
+    right: 50px;
+    bottom: 80px;
+    z-index: 1;
+    display: none;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    transform: rotate(180deg);
+}
+.scrollToTop .fa-arrow-alt-circle-up:hover {
+    transform: scale(1.3) rotate(180deg);
+   transition-duration: 0.5s;
+}
+.scrollToTop:focus {
+    outline: 0;
+}
+.scrollToTop i.fa-arrow-alt-circle-up {
+    font-size: 70px;
+}

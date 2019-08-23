@@ -287,6 +287,9 @@ content: "button";
     .quotes {
         font-size: 20px;
     }
+    .scrollToTop {
+        bottom: 80px;
+    }
  }
 @keyframes shaking {
     0% {
@@ -374,18 +377,17 @@ content: "button";
 
 }
 .scrollToTop {
-    background: yellow;
-    width: 90px;
-    height: 90px;
+    background: none;
    position: fixed;
-    right: 50px;
-    bottom: 80px;
+    right: 10px;
+    bottom: 8%;
     z-index: 1;
     display: none;
     border-radius: 50%;
     border: none;
     text-align: center;
     transform: rotate(180deg);
+
 }
 .scrollToTop .fa-arrow-alt-circle-up:hover {
     transform: scale(1.3) rotate(180deg);
@@ -393,7 +395,10 @@ content: "button";
 }
 .scrollToTop:focus {
     outline: 0;
+
 }
 .scrollToTop i.fa-arrow-alt-circle-up {
-    font-size: 70px;
+    font-size: 40px;
+
+
 }

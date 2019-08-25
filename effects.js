@@ -37,6 +37,10 @@ $(".scrollToTop").click(function () {
     $("html,body").animate({
         scrollTop: $(".navbar").offset().top
     }, 500)
+    $(".card-2").slideUp();
+    $(".card").slideDown();
+    $("#allVillains").slideUp();
+    $("#allHeroes").slideUp();
 
 });
 $(window).scroll(function () {

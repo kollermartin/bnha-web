@@ -120,7 +120,10 @@ nav li {
 }
 #Heroes {
     background: #d9dbdb;
+
 }
+
+
 .card-title , .card-text{
     color: black;
 }
@@ -181,9 +184,13 @@ nav li {
     font-family: 'Montserrat', sans-serif;
 }
 footer {
-    background: #666b67;
+
     color: white;
+    background: #666b67;
+
+
 }
+
 footer div a  {
 color: white;
 margin: 0 10px 0 10px;
@@ -227,6 +234,19 @@ animation: shaking .4s ease-in-out forwards;
     animation-iteration-count: 1;
 
 
+}
+
+.heroesBorder {
+    border: 1px solid black;
+
+    width: 100%;
+    margin-top: 10px;
+}
+.villainsBorder {
+    border: 1px solid white;
+
+    width: 100%;
+    margin-top: 10px;
 }
 .toggleHeroes:focus {
     outline:0;
